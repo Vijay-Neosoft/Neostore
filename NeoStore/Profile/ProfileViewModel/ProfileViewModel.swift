@@ -1,9 +1,3 @@
-//
-//  ProfileViewModel.swift
-//  NeoStore
-//
-//  Created by Neosoft on 24/11/22.
-//
 
 import Foundation
 
