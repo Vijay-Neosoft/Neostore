@@ -671,7 +671,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.91372549020000005" green="0.086274509799999996" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <outlet property="inputOL" destination="LmA-hJ-ZF4" id="t9l-49-37p"/>
+                                            <outlet property="TableinputOutlet" destination="LmA-hJ-ZF4" id="h0q-Le-dX3"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -689,7 +689,7 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="btnLogout:" destination="OqO-n9-kfn" eventType="touchUpInside" id="ayV-i6-0Jo"/>
+                                    <action selector="buttonLogout:" destination="OqO-n9-kfn" eventType="touchUpInside" id="1j2-nq-xrk"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile" translatesAutoresizingMaskIntoConstraints="NO" id="j6e-XV-6kb">
