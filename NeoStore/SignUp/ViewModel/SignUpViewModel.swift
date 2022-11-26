@@ -38,7 +38,9 @@ class SignUpViewModel {
     var showLoader: (() -> ())?
     var success: (() -> Void )?
     var failure: ((Error?) -> Void )?
-    var validationError : ((String) -> Void )?
+    typealias ValidationError = ((String) -> Void )
+    var validationError : ValidationError?
+ 
     
     func signUp(request: RegisterData) {
         

@@ -5,31 +5,18 @@ class ProfileViewController: UIViewController {
     
     @IBOutlet weak var tableView : UITableView!
     
-    var profileDataArray : [ProfileDataType] = [.firstName,.lastName,.email,.phoneNO,.gender]
     var profileViewModel = ProfileViewModel()
-    var userData : IncomingData?
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
-        self.bind()
     }
-    // #MARK -> Binding profileViewModel Data save in userData.
-    func bind() {
-        profileViewModel.getProfileData { responseData in
-            guard let data = responseData  else{
-                return
-            }
-            self.userData = data
-            self.tableView.reloadData()
-        }
-         errorBlock: { errorData in
-            self.showError(error: errorData)
-        }
-    }
+  
     
-    // #MARK ->  LOGOUT BUTTON
+    
+    // MARK ->  LOGOUT BUTTON
     @IBAction func buttonLogout(_ sender: UIButton) {
         showAlertWithDistructiveButton()
        
@@ -53,28 +40,30 @@ class ProfileViewController: UIViewController {
 // #MARK -> Extension for insert data inside TableViewController the cell.
 extension ProfileViewController:UITableViewDataSource,UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return profileDataArray.count
+        return profileViewModel.profileDataCount
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let profileData = profileDataArray[indexPath.row]
+        
+        let profileData = profileViewModel.getProfileData(index: indexPath.row)
+        
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ProfileTableViewCell" ) as? ProfileTableViewCell
         else{
             return UITableViewCell()
         }
        
-        switch profileData{
+        switch profileData.field{
             
         case .firstName:
-            cell.setupCell(text: userData?.first_name ?? "" )
+            cell.setupCell(text: profileData.fieldInput)
             return cell
-        case .lastName:cell.setupCell(text: userData?.last_name ?? "")
+        case .lastName:cell.setupCell(text: profileData.fieldInput)
             return cell
-        case .email:cell.setupCell(text: userData?.email ?? "")
+        case .email:cell.setupCell(text: profileData.fieldInput)
             return cell
-        case .phoneNO:cell.setupCell(text: userData?.phone_no ?? "")
+        case .phoneNO:cell.setupCell(text: profileData.fieldInput)
             return cell
-        case .gender:cell.setupCell(text: userData?.gender ?? "")
+        case .gender:cell.setupCell(text: profileData.fieldInput)
             return cell
         }
     }
