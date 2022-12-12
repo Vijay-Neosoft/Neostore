@@ -10,19 +10,19 @@
 		1807C1032919793200982B05 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807C1022919793200982B05 /* SignUpController.swift */; };
 		18084FA429278EF600769785 /* RPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18084FA329278EF500769785 /* RPicker.swift */; };
 		18084FA62927956200769785 /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18084FA52927956200769785 /* Date + Extension.swift */; };
-		182F75502930BBBB00B10835 /* SubHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F754C2930BBBA00B10835 /* SubHomeCollectionViewCell.swift */; };
-		182F75512930BBBB00B10835 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F754D2930BBBA00B10835 /* HomeCollectionViewCell.swift */; };
-		182F75522930BBBB00B10835 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F754F2930BBBA00B10835 /* HomeScreenViewController.swift */; };
 		187B345E292277370043AE3A /* ResponseApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B345D292277370043AE3A /* ResponseApiData.swift */; };
 		187B346029227B260043AE3A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B345F29227B260043AE3A /* ProfileViewController.swift */; };
 		187B346229227B750043AE3A /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B346129227B750043AE3A /* ProfileTableViewCell.swift */; };
 		188C360F292F3DF70051B780 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C360E292F3DF70051B780 /* ProfileViewModel.swift */; };
+		188CECD429473D7F00EBF821 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CECD329473D7F00EBF821 /* HomeViewModel.swift */; };
+		188CECDA29473F4000EBF821 /* HomeScreenViewController.swift 15-14-38-366.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CECD929473F4000EBF821 /* HomeScreenViewController.swift 15-14-38-366.swift */; };
+		188CECDE294740C900EBF821 /* SubHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CECDD294740C900EBF821 /* SubHomeCollectionViewCell.swift */; };
+		188CECE2294743B800EBF821 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CECE1294743B800EBF821 /* HomeCollectionViewCell.swift */; };
 		18A1BF722922343100AD86E9 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1BF712922343100AD86E9 /* TabbarController.swift */; };
 		18A1BF762922352800AD86E9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1BF752922352800AD86E9 /* TableViewController.swift */; };
 		18A1BF78292235B200AD86E9 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1BF77292235B200AD86E9 /* MainTableViewCell.swift */; };
 		18A1BF7A292235CA00AD86E9 /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1BF79292235CA00AD86E9 /* ProductData.swift */; };
 		18A1BF7C292235DB00AD86E9 /* FileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1BF7B292235DB00AD86E9 /* FileData.swift */; };
-		18AA05792930D04200D54F83 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA05782930D04200D54F83 /* HomeViewModel.swift */; };
 		18B243E52922B27000779A53 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B243E42922B27000779A53 /* UserData.swift */; };
 		18B243E7292397C200779A53 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B243E6292397C200779A53 /* AuthManager.swift */; };
 		8CA77839B904484A4BA9066D /* Pods_NeoStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97843EDCB1D923A30D7D2C14 /* Pods_NeoStore.framework */; };
@@ -70,19 +70,19 @@
 		1807C1022919793200982B05 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		18084FA329278EF500769785 /* RPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPicker.swift; sourceTree = "<group>"; };
 		18084FA52927956200769785 /* Date + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
-		182F754C2930BBBA00B10835 /* SubHomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubHomeCollectionViewCell.swift; sourceTree = "<group>"; };
-		182F754D2930BBBA00B10835 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
-		182F754F2930BBBA00B10835 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		187B345D292277370043AE3A /* ResponseApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseApiData.swift; sourceTree = "<group>"; };
 		187B345F29227B260043AE3A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		187B346129227B750043AE3A /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		188C360E292F3DF70051B780 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		188CECD329473D7F00EBF821 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		188CECD929473F4000EBF821 /* HomeScreenViewController.swift 15-14-38-366.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HomeScreenViewController.swift 15-14-38-366.swift"; path = "NeoStore/HomeScreen/HomeScreenViewController.swift 15-14-38-366.swift"; sourceTree = SOURCE_ROOT; };
+		188CECDD294740C900EBF821 /* SubHomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		188CECE1294743B800EBF821 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		18A1BF712922343100AD86E9 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 		18A1BF752922352800AD86E9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		18A1BF77292235B200AD86E9 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		18A1BF79292235CA00AD86E9 /* ProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
 		18A1BF7B292235DB00AD86E9 /* FileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileData.swift; sourceTree = "<group>"; };
-		18AA05782930D04200D54F83 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		18B243E42922B27000779A53 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		18B243E6292397C200779A53 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		3507C75CB362A1FAE009CBD2 /* Pods-NeoStore-NeoStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoStore-NeoStoreUITests.release.xcconfig"; path = "Target Support Files/Pods-NeoStore-NeoStoreUITests/Pods-NeoStore-NeoStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,34 +145,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		182F754A2930BBBA00B10835 /* HomeScreen */ = {
-			isa = PBXGroup;
-			children = (
-				18AA05772930D02300D54F83 /* HomeScreenModel */,
-				182F754B2930BBBA00B10835 /* HomeScreenCell */,
-				182F754E2930BBBA00B10835 /* ViewController */,
-			);
-			name = HomeScreen;
-			path = "../../../../Documents/Neostore 2 3/Neostore/NeoStore/HomeScreen";
-			sourceTree = "<group>";
-		};
-		182F754B2930BBBA00B10835 /* HomeScreenCell */ = {
-			isa = PBXGroup;
-			children = (
-				182F754C2930BBBA00B10835 /* SubHomeCollectionViewCell.swift */,
-				182F754D2930BBBA00B10835 /* HomeCollectionViewCell.swift */,
-			);
-			path = HomeScreenCell;
-			sourceTree = "<group>";
-		};
-		182F754E2930BBBA00B10835 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				182F754F2930BBBA00B10835 /* HomeScreenViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
 		188C360A292F3CC80051B780 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,12 +179,40 @@
 			path = ProfileViewController;
 			sourceTree = "<group>";
 		};
-		18AA05772930D02300D54F83 /* HomeScreenModel */ = {
+		188CECC8294739AC00EBF821 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
-				18AA05782930D04200D54F83 /* HomeViewModel.swift */,
+				188CECD029473CB800EBF821 /* HomeScreenCell */,
+				188CECCA294739AC00EBF821 /* HomeScreenModel */,
+				188CECCC294739AC00EBF821 /* ViewController */,
+			);
+			name = HomeScreen;
+			path = NeoStore/HomeScreen;
+			sourceTree = SOURCE_ROOT;
+		};
+		188CECCA294739AC00EBF821 /* HomeScreenModel */ = {
+			isa = PBXGroup;
+			children = (
+				188CECD329473D7F00EBF821 /* HomeViewModel.swift */,
 			);
 			path = HomeScreenModel;
+			sourceTree = "<group>";
+		};
+		188CECCC294739AC00EBF821 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				188CECD929473F4000EBF821 /* HomeScreenViewController.swift 15-14-38-366.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		188CECD029473CB800EBF821 /* HomeScreenCell */ = {
+			isa = PBXGroup;
+			children = (
+				188CECE1294743B800EBF821 /* HomeCollectionViewCell.swift */,
+				188CECDD294740C900EBF821 /* SubHomeCollectionViewCell.swift */,
+			);
+			path = HomeScreenCell;
 			sourceTree = "<group>";
 		};
 		37122276EF2F743E4053BE8B /* Pods */ = {
@@ -329,8 +329,8 @@
 				929BD8DC292C8F0100ED5AF5 /* SignUp */,
 				929BD8D9292BA0B300ED5AF5 /* Login */,
 				92F061902912897B0059D057 /* AppDelegate.swift */,
-				182F754A2930BBBA00B10835 /* HomeScreen */,
 				92F061922912897B0059D057 /* SceneDelegate.swift */,
+				188CECC8294739AC00EBF821 /* HomeScreen */,
 				92F061C429128DC50059D057 /* SplashController.swift */,
 				18084FA329278EF500769785 /* RPicker.swift */,
 				18A1BF712922343100AD86E9 /* TabbarController.swift */,
@@ -618,21 +618,19 @@
 			files = (
 				92F061C529128DC50059D057 /* SplashController.swift in Sources */,
 				187B346229227B750043AE3A /* ProfileTableViewCell.swift in Sources */,
+				188CECDE294740C900EBF821 /* SubHomeCollectionViewCell.swift in Sources */,
 				929BD8DB292BA0F500ED5AF5 /* LoginViewModel.swift in Sources */,
-				182F75502930BBBB00B10835 /* SubHomeCollectionViewCell.swift in Sources */,
 				18A1BF7A292235CA00AD86E9 /* ProductData.swift in Sources */,
 				18B243E52922B27000779A53 /* UserData.swift in Sources */,
 				92E2E0692924D02D00B0C634 /* UIViewController+Extension.swift in Sources */,
-				182F75512930BBBB00B10835 /* HomeCollectionViewCell.swift in Sources */,
-				18AA05792930D04200D54F83 /* HomeViewModel.swift in Sources */,
 				18A1BF78292235B200AD86E9 /* MainTableViewCell.swift in Sources */,
+				188CECE2294743B800EBF821 /* HomeCollectionViewCell.swift in Sources */,
 				187B345E292277370043AE3A /* ResponseApiData.swift in Sources */,
 				927A4D8C2916587F0087B611 /* OtpViewController.swift in Sources */,
 				18084FA429278EF600769785 /* RPicker.swift in Sources */,
 				188C360F292F3DF70051B780 /* ProfileViewModel.swift in Sources */,
 				1807C1032919793200982B05 /* SignUpController.swift in Sources */,
 				18A1BF762922352800AD86E9 /* TableViewController.swift in Sources */,
-				182F75522930BBBB00B10835 /* HomeScreenViewController.swift in Sources */,
 				92E2E06B2924DF4100B0C634 /* HATextfield.swift in Sources */,
 				18B243E7292397C200779A53 /* AuthManager.swift in Sources */,
 				92E2E06D292621DB00B0C634 /* RegisterData.swift in Sources */,
@@ -641,7 +639,9 @@
 				92F061952912897B0059D057 /* LoginViewController.swift in Sources */,
 				92F061912912897B0059D057 /* AppDelegate.swift in Sources */,
 				92F061932912897B0059D057 /* SceneDelegate.swift in Sources */,
+				188CECDA29473F4000EBF821 /* HomeScreenViewController.swift 15-14-38-366.swift in Sources */,
 				187B346029227B260043AE3A /* ProfileViewController.swift in Sources */,
+				188CECD429473D7F00EBF821 /* HomeViewModel.swift in Sources */,
 				18A1BF722922343100AD86E9 /* TabbarController.swift in Sources */,
 				929BD8E6292CF4DA00ED5AF5 /* SignUpViewModel.swift in Sources */,
 				18A1BF7C292235DB00AD86E9 /* FileData.swift in Sources */,

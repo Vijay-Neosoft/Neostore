@@ -782,7 +782,6 @@
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-dN-6ep">
                                 <rect key="frame" x="0.0" y="315" width="393" height="454"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="ccG-fZ-VPA">
                                     <size key="itemSize" width="173" height="183"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -982,28 +981,28 @@
     </scenes>
     <designables>
         <designable name="0hg-um-ziZ">
-            <size key="intrinsicContentSize" width="112" height="34"/>
+            <size key="intrinsicContentSize" width="126" height="34"/>
         </designable>
         <designable name="8vC-gs-CCU">
-            <size key="intrinsicContentSize" width="76.666666666666671" height="34"/>
+            <size key="intrinsicContentSize" width="90.333333333333329" height="34"/>
         </designable>
         <designable name="FX0-Rd-a8U">
-            <size key="intrinsicContentSize" width="98.666666666666671" height="34"/>
+            <size key="intrinsicContentSize" width="112.66666666666667" height="34"/>
         </designable>
         <designable name="KSv-E8-v78">
-            <size key="intrinsicContentSize" width="67" height="34"/>
+            <size key="intrinsicContentSize" width="81" height="34"/>
         </designable>
         <designable name="btK-6F-hZu">
-            <size key="intrinsicContentSize" width="83" height="34"/>
+            <size key="intrinsicContentSize" width="97" height="34"/>
         </designable>
         <designable name="isc-CV-dnc">
-            <size key="intrinsicContentSize" width="77" height="34"/>
+            <size key="intrinsicContentSize" width="91" height="34"/>
         </designable>
         <designable name="lWr-Ni-Xd2">
-            <size key="intrinsicContentSize" width="84" height="34"/>
+            <size key="intrinsicContentSize" width="98" height="34"/>
         </designable>
         <designable name="u2U-7O-zh7">
-            <size key="intrinsicContentSize" width="132" height="34"/>
+            <size key="intrinsicContentSize" width="146" height="34"/>
         </designable>
     </designables>
     <resources>
@@ -1034,9 +1033,6 @@
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

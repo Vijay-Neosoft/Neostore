@@ -1,17 +1,13 @@
-
 //
 //  HomeCollectionViewCell.swift
 //  NeoStore
 //
-//  Created by NeoSOFT on 03/09/1944 Saka.
+//  Created by Neosoft on 12/12/22.
 //
 
 import UIKit
 
 class HomeCollectionViewCell: UICollectionViewCell {
- 
     
     @IBOutlet weak var HomeImageOutlet: UIImageView!
-    
-    
 }
