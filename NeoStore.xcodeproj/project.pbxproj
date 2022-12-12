@@ -15,7 +15,7 @@
 		187B346229227B750043AE3A /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B346129227B750043AE3A /* ProfileTableViewCell.swift */; };
 		188C360F292F3DF70051B780 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C360E292F3DF70051B780 /* ProfileViewModel.swift */; };
 		188CECD429473D7F00EBF821 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CECD329473D7F00EBF821 /* HomeViewModel.swift */; };
-		188CECDA29473F4000EBF821 /* HomeScreenViewController.swift 15-14-38-366.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CECD929473F4000EBF821 /* HomeScreenViewController.swift 15-14-38-366.swift */; };
+		188CECDA29473F4000EBF821 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CECD929473F4000EBF821 /* HomeScreenViewController.swift */; };
 		188CECDE294740C900EBF821 /* SubHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CECDD294740C900EBF821 /* SubHomeCollectionViewCell.swift */; };
 		188CECE2294743B800EBF821 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CECE1294743B800EBF821 /* HomeCollectionViewCell.swift */; };
 		18A1BF722922343100AD86E9 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1BF712922343100AD86E9 /* TabbarController.swift */; };
@@ -75,7 +75,7 @@
 		187B346129227B750043AE3A /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		188C360E292F3DF70051B780 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		188CECD329473D7F00EBF821 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		188CECD929473F4000EBF821 /* HomeScreenViewController.swift 15-14-38-366.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HomeScreenViewController.swift 15-14-38-366.swift"; path = "NeoStore/HomeScreen/HomeScreenViewController.swift 15-14-38-366.swift"; sourceTree = SOURCE_ROOT; };
+		188CECD929473F4000EBF821 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeScreenViewController.swift; path = NeoStore/HomeScreen/ViewController/HomeScreenViewController.swift; sourceTree = SOURCE_ROOT; };
 		188CECDD294740C900EBF821 /* SubHomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubHomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		188CECE1294743B800EBF821 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		18A1BF712922343100AD86E9 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
@@ -145,6 +145,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		188B6EAE29474E84009CC9C3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				188CECD929473F4000EBF821 /* HomeScreenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		188C360A292F3CC80051B780 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,9 +190,9 @@
 		188CECC8294739AC00EBF821 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				188B6EAE29474E84009CC9C3 /* ViewController */,
 				188CECD029473CB800EBF821 /* HomeScreenCell */,
 				188CECCA294739AC00EBF821 /* HomeScreenModel */,
-				188CECCC294739AC00EBF821 /* ViewController */,
 			);
 			name = HomeScreen;
 			path = NeoStore/HomeScreen;
@@ -196,14 +204,6 @@
 				188CECD329473D7F00EBF821 /* HomeViewModel.swift */,
 			);
 			path = HomeScreenModel;
-			sourceTree = "<group>";
-		};
-		188CECCC294739AC00EBF821 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				188CECD929473F4000EBF821 /* HomeScreenViewController.swift 15-14-38-366.swift */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		188CECD029473CB800EBF821 /* HomeScreenCell */ = {
@@ -639,7 +639,7 @@
 				92F061952912897B0059D057 /* LoginViewController.swift in Sources */,
 				92F061912912897B0059D057 /* AppDelegate.swift in Sources */,
 				92F061932912897B0059D057 /* SceneDelegate.swift in Sources */,
-				188CECDA29473F4000EBF821 /* HomeScreenViewController.swift 15-14-38-366.swift in Sources */,
+				188CECDA29473F4000EBF821 /* HomeScreenViewController.swift in Sources */,
 				187B346029227B260043AE3A /* ProfileViewController.swift in Sources */,
 				188CECD429473D7F00EBF821 /* HomeViewModel.swift in Sources */,
 				18A1BF722922343100AD86E9 /* TabbarController.swift in Sources */,
